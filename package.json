@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 		"clean": "node utils/deleteFile.js",
-		"db": "DB_FILE=db.sqlite node database/db.js"
+		"db": "DB_FILE=db.sqlite node database/db.js",
+		"task": "node model/tasks.js"
   },
   "keywords": [],
   "author": "",
