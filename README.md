@@ -1,3 +1,3 @@
-# Another Good Idea by Jason Warren
+# Persisting data with SQLite & Node
 
-Template for Jason's repos
+With great power comes shitty CLI tools
