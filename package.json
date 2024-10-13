@@ -1,0 +1,17 @@
+{
+  "name": "work19_sqlite_node_jason",
+  "version": "1.0.0",
+  "description": "With great power comes shitty CLI tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"clean": "node utils/deleteFile.js",
+		"db": "DB_FILE=db.sqlite node database/db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^11.3.0"
+  }
+}
